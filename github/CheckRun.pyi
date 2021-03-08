@@ -8,6 +8,7 @@ from github.GithubObject import CompletableGithubObject, _NotSetType
 from github.PaginatedList import PaginatedList
 from github.PullRequest import PullRequest
 
+
 class CheckRun(CompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

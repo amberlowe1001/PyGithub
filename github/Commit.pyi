@@ -12,6 +12,7 @@ from github.GithubObject import CompletableGithubObject, _NotSetType
 from github.NamedUser import NamedUser
 from github.PaginatedList import PaginatedList
 
+
 class Commit(CompletableGithubObject):
     def __repr__(self) -> str: ...
     @property

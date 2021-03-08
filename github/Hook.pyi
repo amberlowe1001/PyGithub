@@ -4,6 +4,7 @@ from typing import Any, Dict, List, Union
 from github.GithubObject import CompletableGithubObject, _NotSetType
 from github.HookResponse import HookResponse
 
+
 class Hook(CompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

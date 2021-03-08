@@ -6,6 +6,7 @@ from github.NamedUser import NamedUser
 from github.PaginatedList import PaginatedList
 from github.ProjectColumn import ProjectColumn
 
+
 class Project(CompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

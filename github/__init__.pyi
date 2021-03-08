@@ -1,6 +1,3 @@
-from github.MainClass import Github as Github
-from github.MainClass import GithubIntegration as GithubIntegration
-
 from .GithubException import BadAttributeException as BadAttributeException
 from .GithubException import BadCredentialsException as BadCredentialsException
 from .GithubException import BadUserAgentException as BadUserAgentException

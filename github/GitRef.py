@@ -28,8 +28,8 @@
 #                                                                              #
 ################################################################################
 
-import github.GithubObject
 import github.GitObject
+import github.GithubObject
 
 
 class GitRef(github.GithubObject.CompletableGithubObject):

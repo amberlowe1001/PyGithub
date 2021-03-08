@@ -24,11 +24,10 @@
 #                                                                              #
 ################################################################################
 
+import github
 import requests
 import urllib3  # type: ignore
 from httpretty import httpretty  # type: ignore
-
-import github
 
 from . import Framework
 

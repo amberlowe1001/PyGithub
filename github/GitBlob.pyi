@@ -2,6 +2,7 @@ from typing import Any, Dict
 
 from github.GithubObject import CompletableGithubObject
 
+
 class GitBlob(CompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

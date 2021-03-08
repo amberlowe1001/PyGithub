@@ -3,6 +3,7 @@ from typing import Any, Dict
 
 from github.GithubObject import NonCompletableGithubObject
 
+
 class Clones(NonCompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

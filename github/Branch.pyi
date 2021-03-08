@@ -9,6 +9,7 @@ from github.RequiredPullRequestReviews import RequiredPullRequestReviews
 from github.RequiredStatusChecks import RequiredStatusChecks
 from github.Team import Team
 
+
 class Branch(NonCompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

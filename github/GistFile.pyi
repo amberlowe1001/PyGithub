@@ -2,6 +2,7 @@ from typing import Any, Dict, Optional
 
 from github.GithubObject import NonCompletableGithubObject
 
+
 class GistFile(NonCompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

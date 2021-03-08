@@ -39,14 +39,13 @@
 #                                                                              #
 ################################################################################
 
-from deprecated import deprecated
-
 import github.GithubObject
 import github.NamedUser
 import github.Organization
 import github.PaginatedList
 import github.Repository
 import github.TeamDiscussion
+from deprecated import deprecated
 from github.GithubException import UnknownObjectException
 
 from . import Consts

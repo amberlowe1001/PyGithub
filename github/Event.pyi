@@ -6,6 +6,7 @@ from github.NamedUser import NamedUser
 from github.Organization import Organization
 from github.Repository import Repository
 
+
 class Event(NonCompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

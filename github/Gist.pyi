@@ -9,6 +9,7 @@ from github.InputFileContent import InputFileContent
 from github.NamedUser import NamedUser
 from github.PaginatedList import PaginatedList
 
+
 class Gist(CompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

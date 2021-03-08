@@ -1,6 +1,7 @@
-from typing import Any, Dict, Union
+from typing import Any, Dict
 
 from github.GithubObject import NonCompletableGithubObject
+
 
 class Plan(NonCompletableGithubObject):
     def __repr__(self) -> str: ...

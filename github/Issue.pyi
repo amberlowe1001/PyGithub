@@ -14,6 +14,7 @@ from github.Reaction import Reaction
 from github.Repository import Repository
 from github.TimelineEvent import TimelineEvent
 
+
 class Issue(CompletableGithubObject):
     def __repr__(self) -> str: ...
     @property

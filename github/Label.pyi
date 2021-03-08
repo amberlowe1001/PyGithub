@@ -2,6 +2,7 @@ from typing import Any, Dict, Optional, Union
 
 from github.GithubObject import CompletableGithubObject, _NotSetType
 
+
 class Label(CompletableGithubObject):
     def __repr__(self) -> str: ...
     @property

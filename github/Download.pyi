@@ -3,6 +3,7 @@ from typing import Any, Dict, Optional
 
 from github.GithubObject import CompletableGithubObject
 
+
 class Download(CompletableGithubObject):
     def __repr__(self) -> str: ...
     def _initAttributes(self) -> None: ...

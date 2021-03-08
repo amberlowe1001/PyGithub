@@ -40,11 +40,10 @@ import os
 import traceback
 import unittest
 
+import github
 import httpretty  # type: ignore
 from requests.structures import CaseInsensitiveDict
 from urllib3.util import Url  # type: ignore
-
-import github
 
 
 def readLine(file_):

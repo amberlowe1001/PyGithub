@@ -52,10 +52,6 @@ import pickle
 import time
 import warnings
 
-import jwt
-import requests
-import urllib3
-
 import github.ApplicationOAuth
 import github.Event
 import github.Gist
@@ -64,6 +60,9 @@ import github.License
 import github.NamedUser
 import github.PaginatedList
 import github.Topic
+import jwt
+import requests
+import urllib3
 
 from . import (
     AuthenticatedUser,
